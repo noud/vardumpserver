@@ -13,7 +13,7 @@ VarDumper::setHandler(function ($var) {
 
     //Example: HtmlDumper outputs to external file, when call dump()
     $htmlDumper = new HtmlDumper();
-    $htmlDumper->setOutput('dumps.html');
+    $htmlDumper->setOutput('html_dump.html');
     $htmlDumper->dump($cloner->cloneVar($var));
 
 
